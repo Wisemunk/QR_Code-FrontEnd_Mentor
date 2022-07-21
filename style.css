@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Outfit;
+    src: url("font/Outfit.ttf") format("truetype");
+}
+
+body{
+    font-family: Outfit, sans-serif;
+    background: hsl(212, 45%, 89%);
+}
+
+.body {
+    width: 340px;
+    height: 520px;
+    background: white;
+    display: table-cell;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.body img {
+    margin-top: 5%;
+    height: 310px;
+    width: 310px;
+    border-radius: 10px;
+}
+
+#first {
+    color: hsl(218, 44%, 22%);
+    font-size: 23px;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#second {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
